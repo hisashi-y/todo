@@ -178,17 +178,3 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-var MyComponent = React.createClass({
-  displayName:'my component',
-  render: function(){
-    return (
-    <p>Hello world</p>
-    );
-  }
-});
-
-ReactDOM.render(
-  <MyComponent/>,
-  document.getElementById('msg')
-);
